@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin:0 auto;
+  background-color: black;
+}
+
+.container{
+  background: #5e7989;
+  background: black;
+}
+  .cabeza{
+  }
+    .superior{
+      margin-top: 5px;
+    }
+      .logo{
+        background: yellow;
+        height: 150px;
+      }
+      .portada{
+        height: 150px;
+      }
+      .redes{
+        height: 150px;
+      }
+    .nav{
+      background: #5e7989;
+      margin-top: 5px;
+      height: auto;
+    }
+      .ancho{
+        width:150px;
+      }
+  .cuerpo{
+    margin-top: 203px;
+  }
+    .fotos{
+      background: red;
+      min-height: 1200px;
+    }
+    .descripcion{
+      background: blue;
+      min-height: 500px;
+    }
+  .extremidad{
+    margin-top:5px;
+    background: black;
+    text-align: center;
+    align-items: center;
+  }
