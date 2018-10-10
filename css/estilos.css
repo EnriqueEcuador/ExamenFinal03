@@ -1,12 +1,11 @@
 *{
   box-sizing: border-box;
   margin:0 auto;
-  background-color: black;
+  background: #4a9ff5;
 }
 
 .container{
-  background: #5e7989;
-  background: black;
+  background: #4a9ff5;
 }
   .cabeza{
   }
@@ -14,37 +13,40 @@
       margin-top: 5px;
     }
       .logo{
-        background: yellow;
         height: 150px;
       }
       .portada{
         height: 150px;
+        width: 750px;
       }
       .redes{
         height: 150px;
       }
+        .sociales{
+        margin-top: 10px;
+        padding: 0px;
+        }
     .nav{
-      background: #5e7989;
       margin-top: 5px;
       height: auto;
     }
       .ancho{
-        width:150px;
+        width:300px;
+        margin-left: 10px;
+        background:rgba(50,0,150,0.6)
       }
   .cuerpo{
-    margin-top: 203px;
+    margin-top: 215px;
+    padding: 5px;
   }
     .fotos{
-      background: red;
-      min-height: 1200px;
+    /*  min-height: 1200px;*/
     }
     .descripcion{
-      background: blue;
       min-height: 500px;
     }
   .extremidad{
     margin-top:5px;
-    background: black;
     text-align: center;
     align-items: center;
   }
