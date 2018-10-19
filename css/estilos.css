@@ -1,33 +1,57 @@
+/* Ultima modificación: 19-octubre-2018 */
 *{
   box-sizing: border-box;
   margin:0 auto;
-  background: #4a9ff5;
 }
+
+/*.cinema-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}*/
 
 .container{
 }
   .cabecera{
-    min-width: auto;
+    height: 125px;
   }
     .imagenes{
       border-radius: 5px;
     }
   .menu{
-    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .borde1{
     border: 1px #2a567a solid;
   }
   .tronco{
-    margin-top: 200px;
+    margin-top: 156px;
   }
   .texto{
     min-height:200px;
     font-size: 1em;
   }
+  .titulo{
+    color: yellow;
+    font-size: 1rem;
+  }
   .espacio{
     margin-bottom: 5px;
   }
+  .extremidad{
+    height:50px;
+    padding-top: 20px;
+  }
+  .user-data {
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size: 1rem;
+  }
+
 
 @media screen and ( min-width:0px ) and ( max-width:574px ){
   .btn-ancho{
@@ -65,4 +89,3 @@
     width:150px;
   }
 }
-*/
